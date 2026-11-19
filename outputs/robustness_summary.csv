@@ -1,0 +1,20 @@
+metric_category,parameter,value
+Dummy Baseline,Strategy,most_frequent
+Dummy Baseline,Accuracy,0.4604
+Dummy Baseline,Macro F1,0.1576
+Tuned RF Seed 42,Accuracy,0.6383
+Tuned RF Seed 42,Macro F1,0.6376
+Tuned RF Seed 42 95% CI,CI Lower,0.6158
+Tuned RF Seed 42 95% CI,CI Upper,0.6609
+Tuned RF Seed 42 95% CI,Margin (±),0.0226
+Tuned RF 5-Seed Mean ± Std,Accuracy,0.6340 ± 0.0126
+Tuned RF 5-Seed Mean ± Std,Macro F1,0.6359 ± 0.0141
+Tuned RF 5-Seed Min-Max,Accuracy Range,"[0.6194, 0.6458]"
+Tuned RF 5-Seed Min-Max,Macro F1 Range,"[0.6198, 0.6514]"
+Negative release_gap,Row Count,14
+Negative release_gap,Min Value,-3.0
+Seed 42,Accuracy / Macro F1,0.6383 / 0.6376
+Seed 123,Accuracy / Macro F1,0.6194 / 0.6230
+Seed 456,Accuracy / Macro F1,0.6458 / 0.6514
+Seed 789,Accuracy / Macro F1,0.6447 / 0.6474
+Seed 999,Accuracy / Macro F1,0.6217 / 0.6198

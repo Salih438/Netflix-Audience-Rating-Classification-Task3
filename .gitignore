@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Task dataset kept locally pending redistribution verification
+/data/raw/Dataset.csv
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project outputs (optional – uncomment to track outputs in git)
+# outputs/
